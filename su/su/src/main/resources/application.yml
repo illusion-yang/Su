@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/su?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: 123456
+
+
+su:
+  path: D:\su\su\src\main\resources\static\img\
+  audio: D:\su\su\src\main\resources\static\mp3\
+  video: D:\su\su\src\main\resources\static\mp4\
+  avatar: D:\su\su\src\main\resources\static\avatar\
+  game: D:\su\su\src\main\resources\static\game\
+  all: D:\su\su\src\main\resources\static\aimg\
